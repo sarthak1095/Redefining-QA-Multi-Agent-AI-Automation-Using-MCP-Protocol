@@ -77,20 +77,6 @@ python run_tests.py
 
 ---
 
-## **Project Structure**
-
-```
-├── config.json            # MCP server configuration
-├── run_tests.py           # Main script to execute multi-agent workflow
-├── agents/                # Agent scripts (Web, API, Excel)
-├── reports/               # Generated test reports and dashboards
-├── newdata.xlsx           # Test data and credentials output
-├── README.md              # Project documentation
-└── requirements.txt       # Python dependencies
-```
-
----
-
 ## **Test Scenarios & Outcomes**
 
 1. **Empty Registration Validation:** All field-level validations triggered successfully.
@@ -104,12 +90,6 @@ python run_tests.py
 ## **Contributing**
 
 Contributions are welcome! Please create an issue or pull request for bug fixes, improvements, or new test scenarios.
-
----
-
-## **License**
-
-This project is licensed under the MIT License.
 
 ---
 
