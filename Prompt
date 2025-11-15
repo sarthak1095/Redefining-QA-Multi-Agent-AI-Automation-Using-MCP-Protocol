@@ -1,0 +1,20 @@
+Run an agentic automated test workflow on https://rahulshettyacademy.com/client/#/auth/login and execute the 3 scenarios below. After execution, produce a detailed test execution table (TC ID, Description, Steps, Expected vs Actual, Status, Notes) and confirm updates to newdata.xlsx.
+Scenario 1 – Empty Registration Validation: Try registering with no fields filled. Expect all required-field error messages and registration should fail.
+Scenario 2 – Full Registration + API & UI Login: Register using:
+* Email: sartha123@test.com
+* Phone: 1234567890 (All other fields random valid data.) Then:
+1. Save credentials
+2. Call login API using the Postman collection
+3. Log in through the UI
+4. Expect success in both API + UI
+5. Write email + password to newdata.xlsx
+Scenario 3 – Forgot Password End-to-End:
+1. Sign out
+2. Reset password via “Forgot Password”
+3. Log in with the new password via UI
+4. Validate API login with new password
+5. Sign out again Expect full success in reset → UI login → API login.
+Output:
+* One consolidated test execution table
+* Confirmation the Excel file was updated
+* Use agentic reasoning for UI actions, API calls, and file ops.
